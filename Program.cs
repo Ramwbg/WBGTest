@@ -20,11 +20,6 @@ namespace LOBConsole
         {
             // All the below variable values are for developer sandbox environment. In case of a different environment, get these values from deployment team.
             //Pick user id and password from a configuration file and store in encrypted format in the config file using encryption algorithms like DPAPI.
-            var userid = "wbgonespace-jobs@devad.worldbank.org"; // service account
-            var pswd = "WBG@J0b$20036"; // service account password
-            var authority = "https://login.windows.net/devad.worldbank.org"; // authority from Azure AD tenant
-            var resourceId = "https://devad.worldbank.org/IwActivityApi/"; // resource ID from Azure AD tenant
-            var baseAddress = "https://wbgonespacedevapi.iwdevase1b.p.azurewebsites.net"; // API URL for the activity API
             var parendId = "1966b6aa-7ade-45e1-91dd-99e73099e869";
             var parendId = "1966b6aa-7ade-45e1-91dd-99e73099e869";
             //////old
