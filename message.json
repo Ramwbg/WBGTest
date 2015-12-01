@@ -1,0 +1,21 @@
+﻿{
+    "ActorEmail": "mparida@devad.worldbank.org",
+    "ActorUpi": "",
+    "DirectedToUserEmails": ["mparida@worldbankgroup.org"],
+    "SourceId": "HR Reminder111",
+    "AppId": "hrreminder",
+    "RenderingTemplateVersion": "1.0 ",
+    "Body": "",
+    "AppData": {
+        "Title": "Reminder: FABRP-de Kooning, Willem(17890) Term Appt Ends",
+        "Abstract": "This is an automatically-generated HR Reminder email.",
+        "URL": "http://myhr.worldbank.org/hronline/l4/view?cid=23456726",
+        "Category": "Term Appointment Ends",
+        "NoticeDays": "180",
+        "DueDate": "03/17/2016"
+    },
+    "ActivityDate": "2015-11-10 14:43",
+    "Topics": []
+}
+ 
+ 

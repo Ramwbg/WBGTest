@@ -1,0 +1,5 @@
+﻿<routing>
+  <app.queue app.id="TravelRequest" queue.type="private" queue.hostname="MININT-SLG60TE">TravelApp</app.queue>
+  <app.queue app.id="ProjectManager" queue.type="private" queue.hostname="MININT-SLG60TE">ProjectApp</app.queue>
+  <app.queue app.id="ExpenseReport" queue.type="private" queue.hostname="MININT-SLG60TE">ExpenseApp</app.queue>
+</routing>
