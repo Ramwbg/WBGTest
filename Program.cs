@@ -25,8 +25,8 @@ namespace LOBConsole
             var authority = "https://login.windows.net/devad.worldbank.org"; // authority from Azure AD tenant
             var resourceId = "https://devad.worldbank.org/IwActivityApi/"; // resource ID from Azure AD tenant
             var baseAddress = "https://wbgonespacedevapi.iwdevase1b.p.azurewebsites.net"; // API URL for the activity API
-            var clientId = "1966b6aa-7ade-45e1-91dd-99e73099e869";
-            var clientId = "1966b6aa-7ade-45e1-91dd-99e73099e869";
+            var parendId = "1966b6aa-7ade-45e1-91dd-99e73099e869";
+            var parendId = "1966b6aa-7ade-45e1-91dd-99e73099e869";
             //////old
             
 
@@ -35,7 +35,7 @@ namespace LOBConsole
             var uc = new UserCredential(userid, pswd);
             var result = Task.Factory.StartNew(() => authContext.AcquireTokenAsync(
                 resourceId,
-                clientId,
+                parendId,
                 uc)).Result.Result;
             #endregion
 
