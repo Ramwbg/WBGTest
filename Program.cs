@@ -22,6 +22,7 @@ namespace LOBConsole
             //Pick user id and password from a configuration file and store in encrypted format in the config file using encryption algorithms like DPAPI.
             var parendId = "1966b6aa-7ade-45e1-91dd-99e73099e869";
             var parendId = "1966b6aa-7ade-45e1-91dd-99e73099e869";
+            var parendname = "Dev";
             //////old
             
 
