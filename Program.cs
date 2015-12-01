@@ -48,7 +48,6 @@ namespace LOBConsole
         {
             var activity = new ActivityMessage();
             activity.ActivityDate = DateTime.Now;
-            activity.ActorEmail = "wbgonespace-jobs@devad.worldbank.org";
             activity.AppData = "{\"Type\": \"" + "News\"}";
             activity.AppId = "intranet";
             activity.Body = "It's time for open enrollment again!  Don't forget to elect your benefits by Dec 1.  Also there are some new benefits this year.";
@@ -91,8 +90,6 @@ namespace LOBConsole
             var activity = new ActivityMessage();
             activity.ActivityDate = DateTime.Now;
             activity.ActorEmail = "wbgonespace-jobs@devad.worldbank.org";
-            activity.AppData = "{\"ApprovalStatus\": \"" + "Not Started" + "\",\"CurrentApprover\":\"" + "katiej@worldbankiwsandbox.com" +
-                               "\",\"Amount\":\"" + "2442" + "\"}";
             activity.AppId = "expense";
             activity.Body = "Travel to Africa for project initiation";
             activity.DirectedToUserEmails = new[] { "wbgonespace-jobs@devad.worldbank.org" }; // when a message is directed to one or more users, it is private
@@ -126,9 +123,6 @@ namespace LOBConsole
            //Get details from latest message in MSMQ. Id and ActivityId are the two parametes that needs to be read from latest MSMQ message and sent to IW to identify the activity being 
            //updated and the corresponding action (like approve expense report)
             Dictionary<string, string> dict = GetUpdate();
-            var activityUpdate = new ActivityUpdateMessage();
-            activityUpdate.AppData = "{\"ApprovalStatus\": \"" + "Not Started" + "\",\"CurrentApprover\":\"" + "katiej@worldbankiwsandbox.com" +
-                                 "\",\"Amount\":\"" + 203 + "\"}";//Note that approval status is changed to Approved.
             activityUpdate.AppId = "expensereport";
             activityUpdate.ActivityActionId = dict["Id"];//This is required to be passed to IW
             activityUpdate.SourceId = "7777";
