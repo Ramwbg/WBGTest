@@ -26,6 +26,7 @@ namespace LOBConsole
             var resourceId = "https://devad.worldbank.org/IwActivityApi/"; // resource ID from Azure AD tenant
             var baseAddress = "https://wbgonespacedevapi.iwdevase1b.p.azurewebsites.net"; // API URL for the activity API
             var clientId = "1966b6aa-7ade-45e1-91dd-99e73099e869";
+            var clientId = "1966b6aa-7ade-45e1-91dd-99e73099e869";
             //////old
             
 
