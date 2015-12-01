@@ -79,18 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="App.Debug.config">
-      <DependentUpon>App.config</DependentUpon>
-    </None>
-    <None Include="App.PQA.config">
-      <DependentUpon>App.config</DependentUpon>
-    </None>
-    <None Include="App.QA.config">
-      <DependentUpon>App.config</DependentUpon>
-    </None>
-    <None Include="App.Release.config">
-      <DependentUpon>App.config</DependentUpon>
-    </None>
     <None Include="message.json" />
     <None Include="packages.config" />
   </ItemGroup>
